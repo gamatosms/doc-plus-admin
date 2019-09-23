@@ -2,6 +2,10 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import vueButtonEffect from 'vue-button-effect'
+
+
+Vue.use(vueButtonEffect)
 
 Vue.config.productionTip = false
 
